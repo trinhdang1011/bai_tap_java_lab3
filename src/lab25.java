@@ -20,7 +20,7 @@ public class lab25 {
             System.out.println("Tong tien la: " + tongtien3 + "vnd");
         }else if(km>120){
             double i = 15000 + gia2 * 4 + gia3 * (km - 5);
-            double tongtien4= i - i * 10/100;
+            double tongtien4= i - i * 10/100;//>120km discount 10%
             System.out.println("Tong tien la: "+tongtien4+"vnd");
         }
 
