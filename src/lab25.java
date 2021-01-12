@@ -22,7 +22,7 @@ public class lab25 {
             System.out.println("Tong tien la: "+tongtien+"vnd");
         }
         if(km>120){
-            tongtien= tongtien * 90/100;
+            tongtien= tongtien - tongtien * 10/100;
             System.out.println("Tong tien la: "+tongtien+"vnd");
         }
 
