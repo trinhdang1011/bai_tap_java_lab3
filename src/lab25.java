@@ -12,17 +12,14 @@ public class lab25 {
         if (km<=1){
             tongtien = km * gia1;
             System.out.println("Tong tien la: "+tongtien+"vnd");
-        }else
-        if(km<=5){
+        }else if(km<=5){
             tongtien = gia1 + gia2 * (km-1) ;
             System.out.println("Tong tien la: "+tongtien+"vnd");
-        }
-        if(km>5){
+        }else if(km>5&&km<=120){
             tongtien = gia1 + gia2*4 + gia3*(km-5);
             System.out.println("Tong tien la: "+tongtien+"vnd");
-        }
-        if(km>120){
-            tongtien= tongtien - tongtien * 10/100;
+        }else{
+            tongtien= (15000 + gia2*4 + gia3*(km-5))*90/100;
             System.out.println("Tong tien la: "+tongtien+"vnd");
         }
 
