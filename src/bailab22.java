@@ -4,7 +4,7 @@ public class bailab22 {
     public static void main(String[] args) {
         // Giai phuong trinh bac 2
         Scanner dang = new Scanner(System.in);
-        System.out.println("Chuong trinh giai phuong trinh bac 2");
+        System.out.println("Chuong trinh giai phuong trinh bac 2 : ax2 + bx + c = 0");
         System.out.println("Moi nhap a: ");
         int a=dang.nextInt();
         System.out.println("Moi nhap b: ");
