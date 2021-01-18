@@ -9,10 +9,10 @@ public interface lab28 {
         int b = dang.nextInt();
         System.out.println("        MENU        ");
         System.out.println("====================");
-        System.out.println("+");
-        System.out.println("-");
-        System.out.println("*");
-        System.out.println("/");
+        System.out.println("         +");
+        System.out.println("         -");
+        System.out.println("         *");
+        System.out.println("         /");
         System.out.println("====================");
         System.out.print("Moi chon phep tinh:");
         char n= dang.next().charAt(0);
@@ -29,6 +29,8 @@ public interface lab28 {
             case '/':
                 System.out.println("Ket qua tong cua "+ a + " / " + b + " la: " +(a / b));
                 break;
+            default:
+                System.out.println("Ban chon sai phep tinh ,moi chon lai !!!");
         }
 
 
